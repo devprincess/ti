@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+
+<body> 
+<h1>TicTacToe <span class="game">Game</span></h1>
+<div id="game-board">
+  <div class="cell" onclick="cellClicked(0);"></div>
+  <div class="cell" onclick="cellClicked(1);"></div>
+  <div class="cell" onclick="cellClicked(2);"></div>
+  <div class="cell" onclick="cellClicked(3);"></div>
+  <div class="cell" onclick="cellClicked(4);"></div>
+  <div class="cell" onclick="cellClicked(5);"></div>
+  <div class="cell" onclick="cellClicked(6);"></div>
+  <div class="cell" onclick="cellClicked(7);"></div>
+  <div class="cell" onclick="cellClicked(8);"></div>
+</div>
+<div class="message"></div>
+<button class="restart-button" onclick="resetGame()">Restart</button>
+<script src="script.js"></script>
+</body>
+</html>
